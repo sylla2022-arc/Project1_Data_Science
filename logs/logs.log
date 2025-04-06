@@ -1,1 +1,672 @@
 2025-03-26 14:37:52,840 - Datasciencelogger - INFO - Hello World
+2025-04-02 11:20:34,381 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-02 11:23:04,166 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-02 11:45:23,949 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-05 10:46:13,704 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-05 10:54:19,850 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-05 10:54:42,819 - Datasciencelogger - ERROR - Error reading the yaml file: [Errno 2] No such file or directory: 'config\\config.yaml'
+2025-04-05 11:13:37,033 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:22:06,179 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:23:05,042 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:24:52,598 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:27:53,437 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:33:51,686 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 11:35:49,093 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:35:57,764 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:37:40,909 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:37:56,262 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:39:35,211 - Datasciencelogger - ERROR - Permission error: [WinError 5] Accès refusé: 'artifacts'
+2025-04-05 11:41:11,086 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:42:31,561 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:43:17,849 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:45:34,540 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:49:14,854 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:55:36,400 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:56:34,003 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:57:56,993 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 11:59:07,822 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:05:49,564 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:27:28,612 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:27:28,626 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:27:33,428 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:27:33 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150054-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743848853.262432,VS0,VE160
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 689298939a68dd39439e917e0a4f658b15c048a6
+Expires: Sat, 05 Apr 2025 10:32:33 GMT
+Source-Age: 0
+
+
+2025-04-05 12:27:33,473 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:30:48,646 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:30:48,664 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:30:51,331 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:30:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150069-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743849051.442837,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e47e8fa529d6143a817b36aae71221a736bd713d
+Expires: Sat, 05 Apr 2025 10:35:51 GMT
+Source-Age: 198
+
+
+2025-04-05 12:30:51,369 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:35:41,126 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:35:41,133 - Datasciencelogger - INFO - Directory already exists for artifacts/data_ingestion
+2025-04-05 12:35:41,142 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 12:35:41,168 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:36:06,526 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:36:06,540 - Datasciencelogger - INFO - Directory already exists for artifacts/data_ingestion
+2025-04-05 12:36:06,544 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 12:36:06,565 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:36:34,232 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:37:14,921 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:37:14,929 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:37:16,906 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:37:17 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150021-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743849437.872100,VS0,VE143
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f31b64049c23efcda9cd333823d1e03d654bff7e
+Expires: Sat, 05 Apr 2025 10:42:17 GMT
+Source-Age: 0
+
+
+2025-04-05 12:37:16,906 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:39:18,438 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 12:39:18,444 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:39:20,253 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:39:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150036-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743849560.340814,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 16635dddbb7acdeb0ba48bf957df4d0df3c3427f
+Expires: Sat, 05 Apr 2025 10:44:20 GMT
+Source-Age: 123
+
+
+2025-04-05 12:39:20,271 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:39:34,175 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:39:34,182 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:39:36,571 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:39:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150031-PAR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1743849577.678626,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6056a38ca72be02f79eb90ebad41ba815bb162a1
+Expires: Sat, 05 Apr 2025 10:44:36 GMT
+Source-Age: 140
+
+
+2025-04-05 12:39:36,581 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 12:39:58,183 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 12:39:58,186 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 12:39:59,485 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 979B:15C75F:1857FEC:1BD1067:67F10595
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 10:39:59 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150038-PAR
+X-Cache: HIT
+X-Cache-Hits: 1
+X-Timer: S1743849600.593243,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 69cc80eea8b827454fae308e1f5328bdc1596de1
+Expires: Sat, 05 Apr 2025 10:44:59 GMT
+Source-Age: 163
+
+
+2025-04-05 12:39:59,485 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 13:42:50,887 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:47:40,718 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:47:40,718 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:47:40,724 - Datasciencelogger - ERROR - DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 9, in <module>
+    obj = DataIngestionTrainingPipeline()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+2025-04-05 13:48:10,105 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:48:10,108 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:48:10,108 - Datasciencelogger - ERROR - DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 9, in <module>
+    obj = DataIngestionTrainingPipeline()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+2025-04-05 13:48:34,401 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:48:34,403 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:48:34,403 - Datasciencelogger - ERROR - DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 9, in <module>
+    obj = DataIngestionTrainingPipeline()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataIngestionTrainingPipeline.__init__() missing 1 required positional argument: 'config'
+2025-04-05 13:51:49,024 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:51:49,024 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:51:49,024 - Datasciencelogger - ERROR - 'DataIngestionTrainingPipeline' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_ingestion.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = self.config.get_ingestion_config()
+                            ^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'config'
+2025-04-05 13:52:06,874 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:52:06,876 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:52:06,876 - Datasciencelogger - ERROR - 'DataIngestionTrainingPipeline' object has no attribute 'config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_ingestion.py", line 14, in initiate_data_ingestion
+    data_ingestion_config = self.config.get_ingestion_config()
+                            ^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'config'
+2025-04-05 13:53:50,780 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:53:50,780 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:53:50,804 - Datasciencelogger - ERROR - isinstance() argument 2 cannot be a parameterized generic
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_ingestion.py", line 14, in initiate_data_ingestion
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\config\configuration.py", line 19, in __init__
+    create_directories([str(self.config.artifacts_root)])
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\ensure\main.py", line 868, in __call__
+    if not isinstance(value, templ):
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() argument 2 cannot be a parameterized generic
+2025-04-05 13:56:24,247 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:56:24,249 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:56:24,285 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 13:56:24,297 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 13:56:27,385 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAD0:1687A4:1A8C85A:1D7F6D4:67F11A67
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 11:56:27 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150042-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743854187.025962,VS0,VE159
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 81cd31d502ff004a64c3828cea411893d9b04481
+Expires: Sat, 05 Apr 2025 12:01:27 GMT
+Source-Age: 0
+
+
+2025-04-05 13:56:27,412 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 13:56:27,416 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:57:46,509 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:57:46,514 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:57:46,529 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 13:57:46,530 - Datasciencelogger - ERROR - isinstance() arg 2 must be a type, a tuple of types, or a union
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_ingestion.py", line 14, in initiate_data_ingestion
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\config\configuration.py", line 19, in __init__
+    create_directories([str(self.config.artifacts_root)])
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\ensure\main.py", line 873, in __call__
+    if not isinstance(return_val, self.return_templ):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union
+2025-04-05 13:58:29,819 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:58:29,822 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:58:29,845 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 13:58:29,848 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 13:58:30,834 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAD0:1687A4:1A8C85A:1D7F6D4:67F11A67
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 11:58:30 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150074-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743854311.737492,VS0,VE3
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 28f0a492a729a983267565266ce883bd4a17631c
+Expires: Sat, 05 Apr 2025 12:03:30 GMT
+Source-Age: 124
+
+
+2025-04-05 13:58:30,850 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 13:58:30,854 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:59:50,855 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 13:59:50,857 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 13:59:50,880 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 13:59:50,880 - Datasciencelogger - ERROR - isinstance() arg 2 must be a type, a tuple of types, or a union
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 10, in <module>
+    obj.initiate_data_ingestion()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_ingestion.py", line 14, in initiate_data_ingestion
+    config = ConfigurationManager()
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\config\configuration.py", line 19, in __init__
+    create_directories([self.config.artifacts_root])
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\ensure\main.py", line 873, in __call__
+    if not isinstance(return_val, self.return_templ):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: isinstance() arg 2 must be a type, a tuple of types, or a union
+2025-04-05 14:00:07,160 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:00:07,160 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:00:07,180 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 14:00:07,184 - Datasciencelogger - INFO - Directory already exists for artifacts/data_ingestion
+2025-04-05 14:00:07,186 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 14:00:07,212 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:00:07,212 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:00:42,723 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:00:42,723 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:00:42,746 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 14:00:42,746 - Datasciencelogger - INFO - Directory already exists for artifacts/data_ingestion
+2025-04-05 14:00:42,750 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 14:00:42,770 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:00:42,776 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:03:04,873 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:03:04,876 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:03:04,895 - Datasciencelogger - INFO - Directory already exists for artifacts
+2025-04-05 14:03:04,899 - Datasciencelogger - INFO - Directory already exists for artifacts/data_ingestion
+2025-04-05 14:03:04,901 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 14:03:04,931 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:03:04,931 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:03:38,477 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:03:38,477 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:03:38,501 - Datasciencelogger - INFO - Directory created for artifacts
+2025-04-05 14:03:38,510 - Datasciencelogger - INFO - Directory created for artifacts/data_ingestion
+2025-04-05 14:03:39,921 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAD0:1687A4:1A8C85A:1D7F6D4:67F11A67
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 12:03:39 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150025-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743854620.601587,VS0,VE147
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c37fe5c0ec5bd15fb071674e7c64334c994acdd8
+Expires: Sat, 05 Apr 2025 12:08:39 GMT
+Source-Age: 0
+
+
+2025-04-05 14:03:39,934 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:03:39,937 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:09:34,174 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:09:34,174 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:09:34,252 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 14:09:34,252 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-05 14:09:34,256 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-05 14:09:34,277 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:09:34,279 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:10:18,896 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-05 14:10:18,898 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-05 14:10:18,946 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 14:10:18,952 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-05 14:10:20,803 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FAD0:1687A4:1A8C85A:1D7F6D4:67F11A67
+Accept-Ranges: bytes
+Date: Sat, 05 Apr 2025 12:10:20 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150046-PAR
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1743855021.511359,VS0,VE151
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c9a8fa6d72101df7a9a8a31c33c0968725d97b0f
+Expires: Sat, 05 Apr 2025 12:15:20 GMT
+Source-Age: 0
+
+
+2025-04-05 14:10:20,821 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-05 14:10:20,821 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-05 19:50:26,501 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 19:50:26,507 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 19:51:30,532 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 19:51:30,545 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 19:51:30,556 - Datasciencelogger - ERROR - An error occurred during data validation.
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_8660\2457212236.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_8660\3120548061.py", line 19, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir'
+2025-04-05 19:51:51,734 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 19:51:51,736 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 19:51:51,739 - Datasciencelogger - ERROR - An error occurred during data validation.
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\2457212236.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\3120548061.py", line 19, in get_data_validation_config
+    data_validation_config = DataValidationConfig(
+                             ^^^^^^^^^^^^^^^^^^^^^
+TypeError: DataValidationConfig.__init__() got an unexpected keyword argument 'unzip_data_dir'
+2025-04-05 19:58:38,517 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 19:58:38,524 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 19:58:38,526 - Datasciencelogger - ERROR - Error occurred during data validation.
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\4143621680.py", line 10, in validation_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'unzip_data_dir'
+2025-04-05 19:58:38,530 - Datasciencelogger - ERROR - An error occurred during data validation.
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\2457212236.py", line 5, in <module>
+    data_validation.validation_all_columns()
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\4143621680.py", line 32, in validation_all_columns
+    raise e
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_12660\4143621680.py", line 10, in validation_all_columns
+    data = pd.read_csv(self.config.unzip_data_dir)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataValidationConfig' object has no attribute 'unzip_data_dir'
+2025-04-05 20:00:07,523 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 20:00:07,529 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 20:00:07,543 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-05 20:00:07,549 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-05 20:00:07,556 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-05 20:00:07,560 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-05 20:00:07,564 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-05 20:00:07,571 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-05 20:00:07,575 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-05 20:00:07,580 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-05 20:00:07,586 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-05 20:00:07,592 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-05 20:00:07,596 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-05 20:00:07,605 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-05 20:00:07,609 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-05 20:00:07,612 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-05 20:06:12,682 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 20:06:12,716 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 20:06:12,724 - Datasciencelogger - ERROR - An error occurred during data validation.
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'unzip_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'unzip_data'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'unzip_data'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_4288\2457212236.py", line 3, in <module>
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_4288\3560068624.py", line 22, in get_data_validation_config
+    unzip_data=config.unzip_data,
+             ^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_data'"
+2025-04-05 20:13:41,125 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-05 20:13:41,127 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-05 20:13:41,140 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-05 20:13:41,148 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-05 20:13:41,152 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-05 20:13:41,156 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-05 20:13:41,165 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-05 20:13:41,168 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-05 20:13:41,173 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-05 20:13:41,175 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-05 20:13:41,183 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-05 20:13:41,187 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-05 20:13:41,191 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-05 20:13:41,197 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-05 20:13:41,202 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-05 20:13:41,205 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 13:56:00,692 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-06 13:56:00,696 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 13:56:00,719 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 13:56:00,724 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-06 13:56:02,305 - Datasciencelogger - INFO - artifacts/data_ingestion/data.zip downloaded: 
+  Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2E38:115D:A0045D:B90BCF:67F26BCE
+Accept-Ranges: bytes
+Date: Sun, 06 Apr 2025 11:56:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-par-lfpb1150037-PAR
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1743940563.792926,VS0,VE164
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: cf0487fae0c47a6a559a057902c160bf44e8b580
+Expires: Sun, 06 Apr 2025 12:01:02 GMT
+Source-Age: 0
+
+
+2025-04-06 13:56:02,322 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-06 13:56:02,322 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 13:56:02,326 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 13:56:02,358 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 13:56:02,372 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 13:56:02,436 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 13:56:02,442 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 13:56:02,446 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 13:56:02,450 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 13:56:02,454 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 13:56:02,458 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 13:56:02,466 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 13:56:02,470 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 13:56:02,476 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 13:56:02,484 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 13:56:02,490 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 13:56:02,498 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 13:56:02,506 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 13:56:02,510 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 13:56:02,514 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
