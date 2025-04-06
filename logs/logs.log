@@ -670,3 +670,181 @@ Source-Age: 0
 2025-04-06 13:56:02,506 - Datasciencelogger - INFO - Column quality is in the schema.
 2025-04-06 13:56:02,510 - Datasciencelogger - INFO - Data validation completed successfully.
 2025-04-06 13:56:02,514 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 14:54:11,751 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 14:54:11,754 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 14:54:11,772 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 14:54:11,789 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 14:54:11,795 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 14:54:11,804 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 14:54:11,808 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 14:54:11,814 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 14:54:11,821 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 14:54:11,825 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 14:54:11,829 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 14:54:11,837 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 14:54:11,841 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 14:54:11,845 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 14:54:11,859 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 14:54:11,867 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 16:06:24,581 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 16:06:24,594 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-06 16:06:24,610 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-06 16:06:25,137 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-06 16:06:25,137 - Datasciencelogger - INFO - (1279, 12)
+2025-04-06 16:06:25,137 - Datasciencelogger - INFO - (320, 12)
+2025-04-06 17:11:42,460 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-06 17:11:42,464 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:11:42,503 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:11:42,517 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-06 17:11:42,545 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-06 17:11:42,605 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-06 17:11:42,607 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:11:42,609 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:11:42,645 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:11:42,655 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 17:11:42,685 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 17:11:42,697 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 17:11:42,700 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 17:11:42,780 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 17:11:42,795 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 17:11:42,802 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 17:11:42,828 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 17:11:42,849 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 17:11:42,867 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 17:11:42,875 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 17:11:42,879 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 17:11:42,887 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 17:11:42,897 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 17:11:42,901 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 17:11:42,914 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:11:42,917 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:11:42,923 - Datasciencelogger - ERROR - empty separator
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 17, in initiate_data_transformation
+    status = file.read().split("")[-1]
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: empty separator
+2025-04-06 17:11:42,929 - Datasciencelogger - ERROR - empty separator
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 35, in <module>
+    obj.initiate_data_transformation()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 28, in initiate_data_transformation
+    raise e
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 17, in initiate_data_transformation
+    status = file.read().split("")[-1]
+             ^^^^^^^^^^^^^^^^^^^^^
+ValueError: empty separator
+2025-04-06 17:12:45,193 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-06 17:12:45,194 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:12:45,213 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:12:45,213 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-06 17:12:45,222 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-06 17:12:45,248 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-06 17:12:45,252 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:12:45,254 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:12:45,276 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:12:45,288 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 17:12:45,317 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 17:12:45,322 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 17:12:45,322 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 17:12:45,332 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 17:12:45,335 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 17:12:45,339 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 17:12:45,342 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 17:12:45,350 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 17:12:45,355 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 17:12:45,355 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 17:12:45,364 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 17:12:45,368 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 17:12:45,372 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 17:12:45,372 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 17:12:45,372 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:12:45,372 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:12:45,374 - Datasciencelogger - ERROR - Data validation failed (See data Schema). Data transformation skipped.
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 25, in initiate_data_transformation
+    raise Exception(f"Data validation failed (See data Schema). Data transformation skipped.")
+Exception: Data validation failed (See data Schema). Data transformation skipped.
+2025-04-06 17:12:45,374 - Datasciencelogger - ERROR - Data validation failed (See data Schema). Data transformation skipped.
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 35, in <module>
+    obj.initiate_data_transformation()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 28, in initiate_data_transformation
+    raise e
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 25, in initiate_data_transformation
+    raise Exception(f"Data validation failed (See data Schema). Data transformation skipped.")
+Exception: Data validation failed (See data Schema). Data transformation skipped.
+2025-04-06 17:19:29,408 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-06 17:19:29,424 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:19:29,506 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:19:29,538 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-06 17:19:29,538 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-06 17:19:29,790 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-06 17:19:29,827 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:19:29,839 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:19:29,991 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:19:29,999 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 17:19:30,022 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 17:19:30,071 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 17:19:30,098 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 17:19:30,122 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 17:19:30,134 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 17:19:30,139 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 17:19:30,143 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 17:19:30,143 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 17:19:30,150 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 17:19:30,156 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 17:19:30,156 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 17:19:30,164 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 17:19:30,172 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 17:19:30,172 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 17:19:30,172 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:19:30,172 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:19:30,172 - Datasciencelogger - ERROR - Data validation failed (See data Schema). Data transformation skipped.
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 25, in initiate_data_transformation
+    raise Exception(f"Data validation failed (See data Schema). Data transformation skipped.")
+Exception: Data validation failed (See data Schema). Data transformation skipped.
+2025-04-06 17:19:30,183 - Datasciencelogger - ERROR - Data validation failed (See data Schema). Data transformation skipped.
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 35, in <module>
+    obj.initiate_data_transformation()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 28, in initiate_data_transformation
+    raise e
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\data_transforamtion_pipeline.py", line 25, in initiate_data_transformation
+    raise Exception(f"Data validation failed (See data Schema). Data transformation skipped.")
+Exception: Data validation failed (See data Schema). Data transformation skipped.
+2025-04-06 17:20:23,458 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-06 17:20:23,459 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:20:23,472 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:20:23,474 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-06 17:20:23,476 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-06 17:20:23,495 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-06 17:20:23,498 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:20:23,498 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:20:23,537 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:20:23,560 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-06 17:20:23,589 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-06 17:20:23,606 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-06 17:20:23,612 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-06 17:20:23,612 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-06 17:20:23,625 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-06 17:20:23,625 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-06 17:20:23,634 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-06 17:20:23,643 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-06 17:20:23,644 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-06 17:20:23,644 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-06 17:20:23,662 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-06 17:20:23,680 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-06 17:20:23,695 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-06 17:20:23,699 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-06 17:20:23,709 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:20:23,716 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-06 17:20:23,778 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-06 17:20:23,782 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-06 17:20:23,782 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-06 17:20:23,916 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-06 17:20:23,916 - Datasciencelogger - INFO - (1279, 12)
+2025-04-06 17:20:23,919 - Datasciencelogger - INFO - (320, 12)
+2025-04-06 17:20:23,926 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-06 17:20:23,928 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
