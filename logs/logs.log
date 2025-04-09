@@ -848,3 +848,351 @@ Exception: Data validation failed (See data Schema). Data transformation skipped
 2025-04-06 17:20:23,919 - Datasciencelogger - INFO - (320, 12)
 2025-04-06 17:20:23,926 - Datasciencelogger - INFO - Data transformation completed.
 2025-04-06 17:20:23,928 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 10:36:58,713 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:36:58,737 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:36:58,753 - Datasciencelogger - ERROR - "'ConfigBox' object has no attribute 'li_ratio'"
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\1306516604.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\2508490259.py", line 29, in get_model_trainer_config
+    li_ratio=params.li_ratio,
+             ^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+2025-04-09 10:39:20,890 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:39:20,924 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:39:20,933 - Datasciencelogger - ERROR - "'ConfigBox' object has no attribute 'li_ratio'"
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\1306516604.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\2508490259.py", line 29, in get_model_trainer_config
+    li_ratio=params.li_ratio,
+             ^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+2025-04-09 10:39:59,058 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:39:59,066 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:39:59,072 - Datasciencelogger - ERROR - "'ConfigBox' object has no attribute 'li_ratio'"
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'li_ratio'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'li_ratio'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\1306516604.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\2508490259.py", line 29, in get_model_trainer_config
+    li_ratio=params.li_ratio,
+             ^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\box\box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'li_ratio'"
+2025-04-09 10:40:47,597 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:40:47,609 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:40:47,615 - Datasciencelogger - ERROR - ModelTrainerConfig.__init__() got an unexpected keyword argument 'l1_ratio'
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\1306516604.py", line 3, in <module>
+    model_trainer_config = config.get_model_trainer_config()
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_1772\129555931.py", line 22, in get_model_trainer_config
+    model_trainer_config = ModelTrainerConfig(
+                           ^^^^^^^^^^^^^^^^^^^
+TypeError: ModelTrainerConfig.__init__() got an unexpected keyword argument 'l1_ratio'
+2025-04-09 10:45:39,884 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:45:39,891 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:45:39,895 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-09 10:45:40,428 - Datasciencelogger - ERROR - [Errno 2] No such file or directory: 'artifacts/model_trainer\\model.joblib'
+Traceback (most recent call last):
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_16012\1306516604.py", line 5, in <module>
+    model_trainer.train()
+  File "C:\Users\sylla\AppData\Local\Temp\ipykernel_16012\3088706761.py", line 31, in train
+    joblib.dump(model_en, model_path)
+  File "c:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\mon_env\Lib\site-packages\joblib\numpy_pickle.py", line 552, in dump
+    with open(filename, 'wb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model_trainer\\model.joblib'
+2025-04-09 10:55:13,817 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 10:55:13,824 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-09 10:55:13,828 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-09 10:55:13,980 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-09 11:50:58,695 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-09 11:50:58,699 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:58,821 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:50:58,835 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-09 11:50:58,863 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-09 11:50:58,945 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-09 11:50:58,948 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:58,949 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:58,972 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:50:58,976 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-09 11:50:59,020 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-09 11:50:59,034 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-09 11:50:59,037 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-09 11:50:59,040 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-09 11:50:59,047 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-09 11:50:59,051 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-09 11:50:59,053 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-09 11:50:59,055 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-09 11:50:59,063 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-09 11:50:59,065 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-09 11:50:59,067 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-09 11:50:59,069 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-09 11:50:59,072 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-09 11:50:59,072 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-09 11:50:59,073 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:59,076 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:59,102 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:50:59,104 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-09 11:50:59,107 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-09 11:50:59,249 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-09 11:50:59,250 - Datasciencelogger - INFO - (1279, 12)
+2025-04-09 11:50:59,251 - Datasciencelogger - INFO - (320, 12)
+2025-04-09 11:50:59,253 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-09 11:50:59,254 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:59,256 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:50:59,284 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:50:59,286 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-09 11:50:59,286 - Datasciencelogger - ERROR - ModelTrainer.__init__() got an unexpected keyword argument 'Config'
+Traceback (most recent call last):
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\main.py", line 48, in <module>
+    obj.initiate_model_training()
+  File "C:\Users\sylla\Desktop\MLOPS\Project1_with_deployment\Project1_Data_Science\src\Project1_Data_Science\pipeline\model_trainer_pipeline.py", line 16, in initiate_model_training
+    model_trainer_config = ModelTrainer(Config=model_trainer_config)
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ModelTrainer.__init__() got an unexpected keyword argument 'Config'
+2025-04-09 11:53:55,217 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-09 11:53:55,220 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,300 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:53:55,310 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-09 11:53:55,315 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-09 11:53:55,339 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-09 11:53:55,347 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,356 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,416 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:53:55,425 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-09 11:53:55,464 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-09 11:53:55,480 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-09 11:53:55,495 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-09 11:53:55,499 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-09 11:53:55,502 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-09 11:53:55,512 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-09 11:53:55,517 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-09 11:53:55,525 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-09 11:53:55,529 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-09 11:53:55,534 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-09 11:53:55,545 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-09 11:53:55,549 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-09 11:53:55,551 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-09 11:53:55,557 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-09 11:53:55,560 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,567 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,630 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:53:55,659 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-09 11:53:55,668 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-09 11:53:55,870 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-09 11:53:55,874 - Datasciencelogger - INFO - (1279, 12)
+2025-04-09 11:53:55,875 - Datasciencelogger - INFO - (320, 12)
+2025-04-09 11:53:55,878 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-09 11:53:55,883 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,885 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-09 11:53:55,950 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-09 11:53:55,962 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-09 11:53:55,964 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-09 11:53:56,020 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-09 11:53:56,023 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-09 11:53:56,027 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
