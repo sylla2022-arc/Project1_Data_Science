@@ -44,12 +44,17 @@ def create_directories(path_to_directories: list, verbose=True):
             logger.info(f"created directory at: {path}")
 
 @ensure_annotations
-def save_json(path:Path, data:dict) -> None:
-    """Save data to a json file"""
-    with open(path, 'w') as file:
-        json.dump(data, file, indent=4)
+def save_json(path: Path, data: dict):
+    """save json data
 
-    logger.info(f"Data saved to {path}")
+    Args:
+        path (Path): path to json file
+        data (dict): data to be saved in json file
+    """
+    with open(path, "w") as f:
+        json.dump(data, f, indent=4)
+
+    logger.info(f"json file saved at: {path}")
 
 @ensure_annotations
 def load_json(path:Path) -> ConfigBox:
@@ -61,7 +66,7 @@ def load_json(path:Path) -> ConfigBox:
     return ConfigBox(content)
 
 @ensure_annotations
-def save_bin(data:Any, path:Path) -> None:
+def save_bin(data:dict, path:Path) -> None:
     """Save data to a pickle file"""
     joblib.dump(value=data, filename=path)
     logger.info(f"Binaty file saved to {path}")

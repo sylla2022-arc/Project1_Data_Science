@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/sylla/Desktop/MLOPS/Project1_with_deployment/Project1_Data_Science/mlruns/0/0781887639d346969a4751bf5de66b60/artifacts
+end_time: 1744303830242
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0781887639d346969a4751bf5de66b60
+run_name: industrious-hawk-759
+run_uuid: 0781887639d346969a4751bf5de66b60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744303803348
+status: 3
+tags: []
+user_id: sylla

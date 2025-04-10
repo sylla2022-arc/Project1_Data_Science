@@ -1196,3 +1196,68 @@ TypeError: ModelTrainer.__init__() got an unexpected keyword argument 'Config'
 2025-04-09 11:53:56,020 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
 2025-04-09 11:53:56,023 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
 2025-04-09 11:53:56,027 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-10 16:00:12,291 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 16:00:12,318 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 16:00:41,657 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 16:00:41,661 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 16:01:08,471 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 16:01:08,491 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 16:06:27,802 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 16:06:27,818 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 16:06:31,998 - Datasciencelogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-04-10 16:18:46,942 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 16:18:46,952 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 16:18:49,393 - Datasciencelogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-04-10 17:51:59,815 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 17:51:59,826 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 17:52:02,139 - Datasciencelogger - INFO - Data saved to artifacts\model_evaluation\metrics.json
+2025-04-10 17:57:58,398 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 17:57:58,406 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 17:58:00,327 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-10 18:49:59,293 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-10 18:49:59,294 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:49:59,322 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 18:49:59,342 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-10 18:49:59,344 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-10 18:49:59,534 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-10 18:49:59,535 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:49:59,536 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:49:59,562 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 18:49:59,602 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-10 18:50:00,001 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-10 18:50:00,009 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-10 18:50:00,050 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-10 18:50:00,057 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-10 18:50:00,059 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-10 18:50:00,067 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-10 18:50:00,071 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-10 18:50:00,080 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-10 18:50:00,082 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-10 18:50:00,108 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-10 18:50:00,116 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-10 18:50:00,121 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-10 18:50:00,123 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-10 18:50:00,123 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-10 18:50:00,123 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,137 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,169 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 18:50:00,169 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-10 18:50:00,172 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-10 18:50:00,261 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-10 18:50:00,261 - Datasciencelogger - INFO - (1279, 12)
+2025-04-10 18:50:00,261 - Datasciencelogger - INFO - (320, 12)
+2025-04-10 18:50:00,265 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-10 18:50:00,265 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,265 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,284 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 18:50:00,284 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-10 18:50:00,284 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-10 18:50:00,339 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-10 18:50:00,339 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-10 18:50:00,339 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,339 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-10 18:50:00,353 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-10 18:50:00,372 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-10 18:50:03,415 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-10 18:50:30,250 - Datasciencelogger - INFO - Model Evaluation Stage completed successfully.
+2025-04-10 18:50:30,252 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage completed <<<<<<<<<<<<<<<<<<<<

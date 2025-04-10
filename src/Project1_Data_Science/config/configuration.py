@@ -1,6 +1,6 @@
 from src.Project1_Data_Science.constants import *
-from src.Project1_Data_Science.utils.common import read_yaml, create_directories
-from src.Project1_Data_Science.entity.config_entity import (DataIngestionconfig, DataTransformationConfig, DataValidationConfig, ModelTrainerConfig)
+from src.Project1_Data_Science.utils.common import read_yaml, create_directories, save_json
+from src.Project1_Data_Science.entity.config_entity import (DataIngestionconfig, DataTransformationConfig, DataValidationConfig, ModelEvaluationConfig, ModelTrainerConfig)
 
 class ConfigurationManager:
     def __init__(self, 
@@ -17,7 +17,7 @@ class ConfigurationManager:
 
 
         create_directories([self.config.artifacts_root])
-
+    # Data Ingestion Config
     def get_ingestion_config(self) -> DataIngestionconfig:
         config = self.config.data_ingestion
         create_directories([config.root_dir])
@@ -29,6 +29,7 @@ class ConfigurationManager:
         )
         return dataingestion_config
 
+# Data Validation Config
     def get_data_validation_config(self) -> DataValidationConfig:
         config = self.config.data_validation
         schema= self.schema.COLUMNS
@@ -43,6 +44,7 @@ class ConfigurationManager:
         )           
         return data_validation_config
     
+    # Data Transformation Config
     def get_data_transformation_config(self) -> DataTransformationConfig:
         config = self.config.data_transformation
         create_directories([config.root_dir])
@@ -52,6 +54,7 @@ class ConfigurationManager:
         )
         return data_transformation_config
     
+    # Model Trainer Config
     def get_model_trainer_config(self) -> ModelTrainerConfig:
         config = self.config.model_trainer
         params = self.params.ElasticNet
@@ -75,3 +78,23 @@ class ConfigurationManager:
         )
         
         return model_trainer_config
+
+    # ModelEvaluation Config
+    def get_model_evaluation_config(self) -> ModelEvaluationConfig:
+        config = self.config.model_evaluation
+        params = self.params.ElasticNet
+        schema = self.schema.TARGET_COLUMN
+
+        create_directories([config.root_dir])
+
+        model_evaluation_config = ModelEvaluationConfig(
+            root_dir= config.root_dir,
+            test_data_path= config.test_data_path,
+            model_path= config.model_path,
+            metric_file_name= config.metric_file_name,
+
+            TARGET_COLUMN= schema.name,
+            mlflow_uri= "https://dagshub.com/lassoinadame2018/Project1_Data_Science.mlflow",
+            all_params= params
+        )
+        return model_evaluation_config
