@@ -11,6 +11,19 @@ import numpy as np
 import joblib
 
 
+from dotenv import load_dotenv
+
+os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/lassoinadame2018/Project1_Data_Science.mlflow"
+
+
+# Charge les variables d'environnement depuis le fichier .env
+load_dotenv()
+
+# Récupère les variables d'environnement
+mlflow_username = os.getenv('MLFLOW_TRACKING_USERNAME')
+mlflow_password = os.getenv('MLFLOW_TRACKING_PASSWORD')
+
+
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):

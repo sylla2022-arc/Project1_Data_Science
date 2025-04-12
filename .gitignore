@@ -1,4 +1,6 @@
 mon_env/
 logs/
 artifacts/
+.env
+
 
