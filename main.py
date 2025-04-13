@@ -1,4 +1,9 @@
 
+import sys
+import io
+
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+
 from src.Project1_Data_Science import logger
 from src.Project1_Data_Science.pipeline.data_ingestion_pipeline import DataIngestionTrainingPipeline
 from src.Project1_Data_Science.pipeline.data_validation_pipeline import DataValidationTrainingPipeline

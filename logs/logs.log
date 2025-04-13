@@ -1311,3 +1311,790 @@ TypeError: ModelTrainer.__init__() got an unexpected keyword argument 'Config'
 2025-04-10 20:28:22,820 - Datasciencelogger - INFO - created directory at: artifacts
 2025-04-10 20:28:22,824 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
 2025-04-10 20:28:23,947 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 10:24:40,306 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 10:24:40,366 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 10:24:40,402 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:24:42,844 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:24:42,975 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:24:50,549 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:24:50] "GET / HTTP/1.1" 200 -
+2025-04-13 10:24:51,776 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:24:51] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:24:52,278 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:24:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-04-13 10:32:23,155 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:32:23] "GET /train HTTP/1.1" 200 -
+2025-04-13 10:33:27,459 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:33:27] "GET / HTTP/1.1" 200 -
+2025-04-13 10:33:27,791 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:33:27] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:33:56,256 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:33:56] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:34:42,794 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:34:42] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:34:52,886 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:34:52] "GET / HTTP/1.1" 200 -
+2025-04-13 10:34:53,017 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:34:53] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:35:35,313 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:35:35] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:37:05,157 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:37:07,535 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:39:22,904 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 10:39:22,905 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 10:39:22,910 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:39:26,376 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:39:26,537 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:39:32,572 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:39:32] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:39:38,712 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:39:38] "GET / HTTP/1.1" 200 -
+2025-04-13 10:39:39,035 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:39:39] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:39:52,139 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:39:52] "GET / HTTP/1.1" 200 -
+2025-04-13 10:39:52,538 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:39:52] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:40:03,579 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:40:03] "[33mGET /training/ HTTP/1.1[0m" 404 -
+2025-04-13 10:40:10,182 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:40:10] "[33mGET /training HTTP/1.1[0m" 404 -
+2025-04-13 10:40:29,143 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:40:29] "GET /train HTTP/1.1" 200 -
+2025-04-13 10:40:51,281 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:40:53,315 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:40:58,352 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:40:58,435 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:41:05,494 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:41:05,969 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:41:09,791 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:41:09,895 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:41:11,256 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:41:11,612 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:41:16,088 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:41:16,146 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:41:25,778 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:41:26,033 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:41:43,230 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 10:41:43,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 10:41:43,239 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:41:47,308 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:41:47,426 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:41:52,923 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:41:52] "GET / HTTP/1.1" 200 -
+2025-04-13 10:41:53,776 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:41:53] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:42:00,341 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:42:00] "GET /train HTTP/1.1" 200 -
+2025-04-13 10:42:53,151 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:42:54,125 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:42:57,444 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:42:57,562 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:43:36,676 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:43:36] "GET / HTTP/1.1" 200 -
+2025-04-13 10:43:37,297 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:43:37] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -
+2025-04-13 10:44:02,729 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 10:44:02,729 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:02,757 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 10:44:02,757 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 10:44:02,757 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 10:44:02,778 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 10:44:02,779 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:02,779 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:02,796 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 10:44:02,799 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 10:44:02,874 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 10:44:02,884 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 10:44:02,886 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 10:44:02,888 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 10:44:02,890 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 10:44:02,895 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 10:44:02,900 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 10:44:02,903 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 10:44:02,904 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 10:44:02,907 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 10:44:02,919 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 10:44:02,931 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 10:44:02,935 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 10:44:02,937 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 10:44:02,937 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:02,937 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:02,958 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 10:44:02,961 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 10:44:02,961 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 10:44:03,057 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 10:44:03,059 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 10:44:03,059 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 10:44:03,063 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 10:44:03,063 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:03,063 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:03,132 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 10:44:03,136 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 10:44:03,136 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 10:44:03,199 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 10:44:03,199 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 10:44:03,201 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:03,201 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 10:44:03,238 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 10:44:03,240 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 10:44:07,788 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 10:44:41,034 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:44:42,477 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:44:47,221 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:44:47,294 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:44:47,471 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:44:47] "GET /train HTTP/1.1" 200 -
+2025-04-13 10:47:21,777 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:47:21] "GET /train HTTP/1.1" 200 -
+2025-04-13 10:48:19,087 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:48:19] "GET / HTTP/1.1" 200 -
+2025-04-13 10:48:24,545 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:48:24] "GET / HTTP/1.1" 200 -
+2025-04-13 10:49:22,488 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:49:22] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:53:07,652 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:53:10,223 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:53:14,738 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:53:15,054 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:53:29,341 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:53:29,745 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:53:34,413 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:53:34,490 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:53:36,786 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:53:37,213 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:53:39,916 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:53:39,975 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:53:42,342 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:53:43,643 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:53:46,641 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:53:46,697 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:53:55,118 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:53:55] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:54:02,092 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:54:03,157 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:54:08,523 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:54:08,653 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:54:10,754 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:54:10] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:55:04,570 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:55:04] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:56:11,711 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 10:56:12,909 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:56:30,362 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 10:56:30,363 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 10:56:30,367 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:56:33,031 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:56:33,104 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:56:33,177 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:56:33] "GET / HTTP/1.1" 200 -
+2025-04-13 10:57:02,682 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 10:57:02] "POST /predict HTTP/1.1" 200 -
+2025-04-13 10:58:40,317 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\pipeline\\prediction_pipeline.py', reloading
+2025-04-13 10:58:41,612 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:58:46,088 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:58:46,156 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 10:59:39,235 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\pipeline\\prediction_pipeline.py', reloading
+2025-04-13 10:59:39,652 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 10:59:43,528 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 10:59:43,575 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:00:04,471 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:00:04] "POST /predict HTTP/1.1" 200 -
+2025-04-13 11:00:53,524 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\pipeline\\prediction_pipeline.py', reloading
+2025-04-13 11:00:56,344 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:00:59,196 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:00:59,246 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:01:12,866 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\pipeline\\prediction_pipeline.py', reloading
+2025-04-13 11:01:13,128 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:01:15,372 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:01:15,423 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:01:17,558 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\pipeline\\prediction_pipeline.py', reloading
+2025-04-13 11:01:17,897 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:01:21,542 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:01:21,666 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:01:27,283 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:01:27] "POST /predict HTTP/1.1" 200 -
+2025-04-13 11:05:31,002 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:05:36,505 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:05:56,510 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 11:05:56,510 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:05:56,510 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:06:01,346 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:06:01,405 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:06:07,405 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:06:07] "POST /predict HTTP/1.1" 200 -
+2025-04-13 11:06:22,744 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:06:22] "GET /train HTTP/1.1" 200 -
+2025-04-13 11:08:18,371 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:08:19,849 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:08:23,231 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:08:23,317 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:08:34,640 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:08:34,641 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,657 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:08:34,658 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:08:34,659 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:08:34,668 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:08:34,668 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,669 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,680 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:08:34,680 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:08:34,699 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:08:34,701 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:08:34,701 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:08:34,706 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:08:34,707 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:08:34,709 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:08:34,710 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:08:34,713 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:08:34,714 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:08:34,716 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:08:34,718 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:08:34,720 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:08:34,722 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:08:34,722 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:08:34,722 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,722 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,731 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:08:34,732 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:08:34,732 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:08:34,788 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:08:34,788 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:08:34,789 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:08:34,790 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:08:34,790 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,790 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,801 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:08:34,802 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:08:34,802 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:08:34,824 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:08:34,824 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:08:34,824 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,824 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:08:34,851 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:08:34,852 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:08:38,081 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:09:07,084 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:09:07] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:20:48,033 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:20:48,033 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,050 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:20:48,051 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:20:48,053 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:20:48,071 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:20:48,071 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,071 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,093 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:20:48,095 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:20:48,121 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:20:48,123 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:20:48,124 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:20:48,126 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:20:48,128 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:20:48,130 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:20:48,136 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:20:48,138 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:20:48,139 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:20:48,141 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:20:48,142 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:20:48,144 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:20:48,147 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:20:48,150 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:20:48,152 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,152 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,169 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:20:48,169 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:20:48,169 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,269 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,292 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:20:48,293 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:20:48,294 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:20:48,349 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:20:48,352 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:20:48,352 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,352 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:20:48,367 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:20:48,368 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:20:51,338 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:21:20,548 - Datasciencelogger - INFO - Model Evaluation Stage completed successfully.
+2025-04-13 11:21:20,550 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:00,303 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 11:24:00,305 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:24:00,315 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:24:03,485 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:24:03,547 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:24:15,246 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:24:15,246 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,264 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:24:15,265 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:24:15,266 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:24:15,275 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:24:15,275 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,276 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,289 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:24:15,290 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:24:15,301 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:24:15,311 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:24:15,314 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:24:15,315 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:24:15,317 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,319 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,343 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:24:15,344 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:24:15,344 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:24:15,401 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:24:15,401 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:24:15,402 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:24:15,402 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:24:15,402 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,403 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,415 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:24:15,416 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:24:15,416 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:24:15,453 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:24:15,453 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:24:15,453 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,453 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:24:15,465 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:24:15,466 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:24:17,955 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:24:49,083 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:24:49] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:25:51,527 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:25:54,032 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:25:59,877 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:25:59,963 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:26:17,796 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:26:17,796 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,823 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:26:17,824 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:26:17,825 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:26:17,835 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:26:17,835 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,835 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,843 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:26:17,844 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:26:17,861 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:26:17,864 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:26:17,865 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:26:17,866 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:26:17,867 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:26:17,869 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:26:17,870 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:26:17,871 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:26:17,872 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:26:17,874 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:26:17,875 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:26:17,882 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:26:17,882 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:26:17,882 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:26:17,882 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,882 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,897 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:26:17,897 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:26:17,897 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:26:17,955 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:26:17,955 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:26:17,955 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:26:17,961 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:26:17,961 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,961 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:17,974 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:26:17,974 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:26:17,974 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:26:18,004 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:26:18,005 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:26:18,005 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:18,005 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:26:18,016 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:26:18,020 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:26:20,184 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:27:10,607 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:27:10] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:27:40,689 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 11:27:40,689 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:27:40,689 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:27:42,678 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:27:42,741 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:28:00,425 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:28:00,426 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,442 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:28:00,442 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:28:00,442 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:28:00,448 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:28:00,448 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,448 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,460 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:28:00,460 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:28:00,474 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:28:00,476 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:28:00,477 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:28:00,478 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:28:00,481 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:28:00,482 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:28:00,483 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:28:00,484 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:28:00,485 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:28:00,486 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:28:00,488 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:28:00,489 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:28:00,490 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:28:00,490 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:28:00,490 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,490 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,496 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:28:00,496 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:28:00,496 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:28:00,551 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:28:00,551 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:28:00,551 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:28:00,552 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:28:00,552 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,552 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,560 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:28:00,561 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:28:00,561 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:28:00,583 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:28:00,583 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:28:00,583 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,583 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:28:00,606 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:28:00,607 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:28:02,838 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:28:37,798 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:28:37] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:29:38,281 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\template.py', reloading
+2025-04-13 11:29:39,558 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:29:43,863 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:29:43,918 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:29:48,188 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\template.py', reloading
+2025-04-13 11:29:48,492 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:29:50,322 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:29:50,368 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:30:14,198 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:30:14,199 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,221 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:30:14,222 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:30:14,224 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:30:14,239 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:30:14,239 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,239 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,255 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:30:14,257 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:30:14,280 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:30:14,282 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:30:14,288 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:30:14,291 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:30:14,293 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:30:14,295 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:30:14,295 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:30:14,297 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:30:14,299 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:30:14,303 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:30:14,305 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:30:14,307 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:30:14,309 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:30:14,309 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:30:14,309 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,309 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,328 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:30:14,331 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:30:14,331 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:30:14,419 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:30:14,420 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:30:14,420 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:30:14,421 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:30:14,421 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,421 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,440 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:30:14,440 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:30:14,440 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:30:14,486 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:30:14,486 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:30:14,486 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,486 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:30:14,502 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:30:14,504 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:30:17,826 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:30:56,422 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:30:56] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:36:23,849 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\components\\model_evaluation.py', reloading
+2025-04-13 11:36:27,422 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:36:33,196 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:36:33,277 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:36:48,432 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:36:48,432 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,463 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:36:48,464 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:36:48,466 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:36:48,494 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:36:48,495 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,495 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,525 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:36:48,527 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:36:48,552 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:36:48,559 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:36:48,561 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:36:48,561 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:36:48,563 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:36:48,565 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:36:48,567 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:36:48,569 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:36:48,572 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:36:48,575 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:36:48,576 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:36:48,578 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:36:48,579 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:36:48,579 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:36:48,580 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,580 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,599 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:36:48,600 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:36:48,600 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:36:48,744 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:36:48,746 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:36:48,746 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:36:48,746 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:36:48,748 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,748 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,776 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:36:48,778 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:36:48,778 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:36:48,851 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:36:48,851 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:36:48,852 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,852 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:36:48,872 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:36:48,874 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:36:51,868 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:37:25,451 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:37:25] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:40:04,170 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\components\\model_evaluation.py', reloading
+2025-04-13 11:40:06,341 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:40:12,198 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:40:12,286 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:40:16,544 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\src\\Project1_Data_Science\\components\\model_evaluation.py', reloading
+2025-04-13 11:40:16,921 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:40:19,709 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:40:19,787 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:40:39,562 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:40:39,562 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,565 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:40:39,565 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:40:39,565 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:40:39,585 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:40:39,585 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,585 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,594 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:40:39,594 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:40:39,613 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:40:39,613 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:40:39,619 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:40:39,622 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:40:39,622 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:40:39,624 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:40:39,624 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:40:39,628 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:40:39,630 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:40:39,632 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:40:39,634 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:40:39,636 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:40:39,637 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:40:39,638 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:40:39,638 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,638 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,651 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:40:39,652 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:40:39,652 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:40:39,714 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:40:39,715 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:40:39,715 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:40:39,716 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:40:39,716 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,716 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,725 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:40:39,726 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:40:39,726 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:40:39,749 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:40:39,749 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:40:39,749 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,749 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:40:39,771 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:40:39,772 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:40:42,671 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:41:16,470 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:41:16] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+2025-04-13 11:50:50,498 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 11:50:50,500 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:50:50,507 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:50:53,855 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:50:53,968 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:51:11,893 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:51:11,894 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:11,907 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:51:11,908 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:51:11,909 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:51:11,920 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:51:11,920 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:11,920 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:11,934 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:51:11,934 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:51:11,957 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:51:11,959 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:51:11,960 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:51:11,961 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:51:11,963 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:51:11,964 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:51:11,966 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:51:11,967 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:51:11,970 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:51:11,971 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:51:11,973 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:51:11,975 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:51:11,976 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:51:11,977 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:51:11,977 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:11,977 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:11,994 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:51:11,994 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:51:11,994 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:51:12,063 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:51:12,063 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:51:12,063 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:51:12,068 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:51:12,068 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:12,068 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:12,082 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:51:12,084 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:51:12,084 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:51:12,118 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:51:12,119 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:51:12,119 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:12,119 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:12,121 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:51:12,121 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:51:16,052 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:51:45,079 - Datasciencelogger - INFO - Model Evaluation Stage completed successfully.
+2025-04-13 11:51:45,079 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:51:46,420 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:51:46] "GET /train HTTP/1.1" 200 -
+2025-04-13 11:54:53,226 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 11:54:53,228 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 11:54:53,232 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:54:55,389 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:54:55,587 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:55:05,750 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:55:05] "GET /train HTTP/1.1" 200 -
+2025-04-13 11:57:11,053 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:57:11,973 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:57:16,333 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:57:16,404 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:57:42,476 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:57:42,760 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:57:45,154 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:57:45,227 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:58:03,838 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 11:58:04,107 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 11:58:07,445 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 11:58:07,496 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 11:58:28,343 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 11:58:28,343 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,361 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:58:28,362 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 11:58:28,363 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 11:58:28,373 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 11:58:28,373 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,374 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,383 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:58:28,383 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 11:58:28,409 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 11:58:28,412 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 11:58:28,415 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 11:58:28,416 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 11:58:28,418 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 11:58:28,419 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 11:58:28,421 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 11:58:28,422 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 11:58:28,424 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 11:58:28,425 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 11:58:28,426 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 11:58:28,428 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 11:58:28,429 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 11:58:28,429 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 11:58:28,429 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,430 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,442 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:58:28,443 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 11:58:28,443 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 11:58:28,514 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 11:58:28,515 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 11:58:28,515 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 11:58:28,515 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 11:58:28,515 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,515 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,525 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:58:28,525 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 11:58:28,525 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 11:58:28,557 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 11:58:28,558 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 11:58:28,558 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,558 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:58:28,568 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 11:58:28,568 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 11:58:31,083 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 11:59:04,518 - Datasciencelogger - INFO - Model Evaluation Stage completed successfully.
+2025-04-13 11:59:04,520 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 11:59:06,999 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 11:59:06] "GET /train HTTP/1.1" 200 -
+2025-04-13 12:04:44,172 - werkzeug - INFO -  * Detected change in 'C:\\Users\\sylla\\Desktop\\MLOPS\\Project1_with_deployment\\Project1_Data_Science\\app.py', reloading
+2025-04-13 12:04:45,627 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 12:05:15,547 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.80:5000
+2025-04-13 12:05:15,547 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-04-13 12:05:15,547 - werkzeug - INFO -  * Restarting with stat
+2025-04-13 12:05:17,796 - werkzeug - WARNING -  * Debugger is active!
+2025-04-13 12:05:17,875 - werkzeug - INFO -  * Debugger PIN: 324-749-223
+2025-04-13 12:05:38,210 - Datasciencelogger - INFO - Bienvenue dans mon projet de data science !
+2025-04-13 12:05:38,211 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,225 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 12:05:38,226 - Datasciencelogger - INFO - created directory at: artifacts/data_ingestion
+2025-04-13 12:05:38,228 - Datasciencelogger - INFO - File already exists: artifacts/data_ingestion/data.zip
+2025-04-13 12:05:38,241 - Datasciencelogger - INFO - Extracted files to artifacts/data_ingestion
+2025-04-13 12:05:38,242 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Ingestion stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,242 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,260 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 12:05:38,261 - Datasciencelogger - INFO - created directory at: artifacts/data_validation
+2025-04-13 12:05:38,282 - Datasciencelogger - INFO - Data loaded successfully for validation.
+2025-04-13 12:05:38,287 - Datasciencelogger - INFO - Column fixed acidity is in the schema.
+2025-04-13 12:05:38,288 - Datasciencelogger - INFO - Column volatile acidity is in the schema.
+2025-04-13 12:05:38,289 - Datasciencelogger - INFO - Column citric acid is in the schema.
+2025-04-13 12:05:38,292 - Datasciencelogger - INFO - Column residual sugar is in the schema.
+2025-04-13 12:05:38,294 - Datasciencelogger - INFO - Column chlorides is in the schema.
+2025-04-13 12:05:38,295 - Datasciencelogger - INFO - Column free sulfur dioxide is in the schema.
+2025-04-13 12:05:38,296 - Datasciencelogger - INFO - Column total sulfur dioxide is in the schema.
+2025-04-13 12:05:38,298 - Datasciencelogger - INFO - Column density is in the schema.
+2025-04-13 12:05:38,301 - Datasciencelogger - INFO - Column pH is in the schema.
+2025-04-13 12:05:38,304 - Datasciencelogger - INFO - Column sulphates is in the schema.
+2025-04-13 12:05:38,306 - Datasciencelogger - INFO - Column alcohol is in the schema.
+2025-04-13 12:05:38,307 - Datasciencelogger - INFO - Column quality is in the schema.
+2025-04-13 12:05:38,308 - Datasciencelogger - INFO - Data validation completed successfully.
+2025-04-13 12:05:38,308 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Validation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,308 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,330 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 12:05:38,330 - Datasciencelogger - INFO - created directory at: artifacts/data_transformation
+2025-04-13 12:05:38,331 - Datasciencelogger - INFO - Splitting data into train and test sets.
+2025-04-13 12:05:38,403 - Datasciencelogger - INFO - Data splitting completed.
+2025-04-13 12:05:38,403 - Datasciencelogger - INFO - (1279, 12)
+2025-04-13 12:05:38,403 - Datasciencelogger - INFO - (320, 12)
+2025-04-13 12:05:38,404 - Datasciencelogger - INFO - Data transformation completed.
+2025-04-13 12:05:38,404 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Data Transformation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,404 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,417 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 12:05:38,418 - Datasciencelogger - INFO - created directory at: artifacts/model_trainer
+2025-04-13 12:05:38,419 - Datasciencelogger - INFO - Training model with config: ModelTrainerConfig(root_dir='artifacts/model_trainer', train_data_path='artifacts/data_transformation/train.csv', test_data_path='artifacts/data_transformation/test.csv', model_name='model.joblib', alpha=0.2, random_state=42, l1_ratio=0.1, target_column='quality')
+2025-04-13 12:05:38,459 - Datasciencelogger - INFO - Model saved at: artifacts/model_trainer\model.joblib
+2025-04-13 12:05:38,459 - Datasciencelogger - INFO - Model Trainer stage completed successfully.
+2025-04-13 12:05:38,459 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Trainer stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,459 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage started <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:05:38,476 - Datasciencelogger - INFO - created directory at: artifacts
+2025-04-13 12:05:38,477 - Datasciencelogger - INFO - created directory at: artifacts/model_evaluation
+2025-04-13 12:05:41,658 - Datasciencelogger - INFO - json file saved at: artifacts\model_evaluation\metrics.json
+2025-04-13 12:06:08,879 - Datasciencelogger - INFO - Model Evaluation Stage completed successfully.
+2025-04-13 12:06:08,879 - Datasciencelogger - INFO - >>>>>>>>>>>>>>>>>>>> Model Evaluation stage completed <<<<<<<<<<<<<<<<<<<<
+2025-04-13 12:06:09,699 - werkzeug - INFO - 192.168.1.80 - - [13/Apr/2025 12:06:09] "GET /train HTTP/1.1" 200 -

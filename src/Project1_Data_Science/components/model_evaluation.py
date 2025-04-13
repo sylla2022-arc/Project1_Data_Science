@@ -12,6 +12,7 @@ import joblib
 
 
 from dotenv import load_dotenv
+import os
 
 os.environ["MLFLOW_TRACKING_URI"] = "https://dagshub.com/lassoinadame2018/Project1_Data_Science.mlflow"
 

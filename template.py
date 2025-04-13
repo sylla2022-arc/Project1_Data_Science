@@ -1,8 +1,11 @@
 import os
 from pathlib import Path
 import logging
+import sys
 
 logging.basicConfig(level=logging.INFO,
+                    stream=sys.stdout,
+                    encoding='utf-8',
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 
